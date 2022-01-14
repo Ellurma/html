@@ -1,0 +1,33 @@
+.target1 {
+    height: 70px;
+    background: #851a2a;
+    color: #fbebd9;
+    padding-top: 10px;
+    text-align:center;
+    box-sizing: border-box;
+}
+.target2 {
+    box-sizing: border-box;
+    background: #c0c0c0;
+    height: 100px;
+    padding: 20px;
+
+}
+.target3 {
+    box-sizing: border-box;
+    height: 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #5896ec;
+}
+.target4 {
+    background: #7ebe68;
+    height: 300px;
+    width: 250px;
+}
+.target5 {
+    background: #8586ac;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
