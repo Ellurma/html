@@ -1,0 +1,33 @@
+.wrap {
+    height: 800px;
+    background: black;
+}
+.empty{ height: 200px}
+.target {
+    box-sizing: border-box;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    padding-top: 20px;
+    margin-left: 700px;
+    margin-bottom: 20px;
+    background: black;
+    border-radius: 20px;
+}
+    #f {
+        color: #f86128;
+        border: 5px solid #f86128;
+  }
+    #s {
+        color: #62fff1;
+        border: 5px solid #62fff1;
+    }
+    #t {
+        color: #f33aa8;
+        border: 5px solid #f33aa8;
+    }
+    #fo {
+        color: #f40843;
+        border: 5px solid #f60a44;
+    }
+
