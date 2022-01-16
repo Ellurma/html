@@ -1,0 +1,39 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    height: 300px;
+    width: 1000px;
+    background: #5896ec;
+    margin-bottom: 50px;
+    font-size: 70px;
+    line-height: 300px;
+    vertical-align: center;
+    text-align: center;
+}
+.insert {
+    display: flex;
+    justify-content: space-between;
+}
+.a, .b, .c {
+    height: 300px;
+    width: 300px;
+    background: #5ea5d8;
+    font-size: 40px;
+    line-height: 300px;
+    vertical-align: center;
+    text-align: center;
+}
+.botton {
+    height: 800px;
+    width: 1000px;
+    background: silver;
+    margin-top: 50px;
+    font-size: 70px;
+    line-height: 800px;
+    vertical-align: center;
+    text-align: center;
+}
+
