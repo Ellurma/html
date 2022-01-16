@@ -1,0 +1,50 @@
+.a {
+    height: 200px;
+    width: 830px;
+    background: silver;
+}
+#container {
+    height: 420px;
+    width: 830px;
+    display: flex;
+}
+#container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#container2 {
+    display: flex;
+    align-items: stretch;
+}
+
+#container1 > b {
+    align-items: flex-start;
+}
+#container1 > c, d, e {
+    align-items: flex-end;
+}
+
+.b {
+    height: 200px;
+    width: 620px;
+    background: silver;
+    margin-top: 10px;
+}
+.f {
+    height: 410px;
+    width: 200px;
+    background: silver;
+    margin-left: 10px;
+    margin-top: 10px
+}
+.c, .d, .e {
+    height: 200px;
+    width: 200px;
+    background: silver;
+    margin-top: 10px;
+}
+.d, .e {
+    margin-left: 10px;
+}
+
+

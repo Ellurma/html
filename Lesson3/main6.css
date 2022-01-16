@@ -1,0 +1,10 @@
+#header {
+    width: 50%;
+    height: 50px;
+    background: #62fff1;
+    display: flex;
+    margin: 0 auto;
+    border: 2px solid black;
+
+
+}

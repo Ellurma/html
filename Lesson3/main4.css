@@ -1,0 +1,44 @@
+#container, #container2, #container3 {
+    display: flex;
+    justify-content: center;
+
+}
+#container > div {
+    margin-left: 10px;
+
+}
+.home,.about {
+    height: 600px;
+    width: 300px;
+    background: #5ea5d8;
+    font-size: 20px;
+    line-height: 600px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#container2 > div {
+    margin-top: 10px;
+}
+.a {
+    height: 300px;
+    width: 600px;
+    background: #5ea5d8;
+    font-size: 20px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: center;
+}
+#container3 > div {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.b, .c, .d {
+    height: 300px;
+    width: 200px;
+    background: #5ea5d8;
+    font-size: 20px;
+    line-height: 300px;
+    text-align: center;
+    vertical-align: center;
+}
