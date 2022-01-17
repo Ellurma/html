@@ -1,0 +1,55 @@
+.top {
+    text-align: center;
+}
+.products {
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-card {
+    width: 250px;
+    height: 370px;
+    border: 1px solid silver;
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow: silver 5px 5px 2px 1px;
+
+
+
+}
+.star {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.product-card div >i {
+    font-size: 50px;
+
+}
+.product-card >h2 {
+    text-align: center;
+    color: #fda616;
+}
+.product-card >p {
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+
+.bottom {
+    height: 40px;
+    width: 150px;
+    background: #a6dfda;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 20px;
+
+}
