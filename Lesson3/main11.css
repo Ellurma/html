@@ -1,0 +1,44 @@
+.container {
+    width: 1200px;
+    height: 800px;
+    background: #1ea8a8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.inner-box {
+    display: flex;
+}
+.inner-box >i {
+    height: 80px;
+    padding: 40px;
+    font-size: 60px;
+    color: silver;
+    line-height: 80px;
+    vertical-align: center ;
+    text-align: center;
+}
+.inner-box >p {
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.card {
+    width: 500px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+}
+.card >h2 {
+    color: #fda616;
+    text-align: center;
+    margin: 5px;
+
+}
+
