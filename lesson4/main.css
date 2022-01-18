@@ -1,0 +1,27 @@
+.dsp-fl{
+    display: flex;
+    justify-content: space-between;
+}
+.mg-0{
+    margin: 0 auto;
+}
+.w650{
+    width: 650px;
+}
+.bg-blue-l {
+    background: #026bbb;
+}
+.bg-blue-d{
+    background: #06467b;
+    width: 200px;
+    height: 250px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.h300{
+    height: 300px;
+}
+.h550{
+    height: 550px;
+}
+
