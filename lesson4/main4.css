@@ -1,0 +1,38 @@
+.h100{
+    height: 100px;
+}
+.h210{
+    height: 210px;
+}
+.w100{
+    width: 100px;
+}
+.w430{
+    width: 430px;
+}
+.bg-silv{
+    background: silver;
+}
+.brd-r-5{
+    border-radius: 5px;
+}
+.dsp-fl{
+    display: flex;
+}
+.fl-wrp{
+    flex-wrap: wrap;
+}
+.mrg-r-10{
+    margin-right: 10px;
+}
+.mrg-b-10{
+    margin-bottom: 10px;
+}
+.wrap{
+    height: 350px;
+    width: 460px;
+    box-sizing: border-box;
+    border: grey solid 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
