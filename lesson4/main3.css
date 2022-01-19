@@ -1,0 +1,57 @@
+.wrap{
+    justify-content: center;
+}
+
+.wrap >div {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+
+.top{
+    height: 100px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.brd{
+    border: 2px solid grey;
+}
+
+.brd-r-50{
+    border-radius:50% ;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: #e98c20;
+    line-height: 100px;
+    vertical-align: center;
+    position: relative;
+    top: 50px
+}
+
+.txt-cntr{
+    text-align: center;
+}
+.dsp-fl{
+    display: flex;
+}
+p{
+    font-size: 18px;
+    color: silver;
+}

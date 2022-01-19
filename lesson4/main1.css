@@ -1,0 +1,32 @@
+.container{
+    background: #34c0d3;
+    width: 1500px;
+    height: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center ;
+
+}
+.dsp-fl{
+    display: flex;
+}
+.card{
+    width: 650px;
+    height: 200px;
+    background: #fefefe;
+    border-radius: 10px;
+
+}
+h2{
+    text-align: center;
+    color: #fda616;
+}
+i{
+    height: 200px;
+    width: 300px;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: center;
+    line-height: 200px;
+}
