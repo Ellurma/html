@@ -35,6 +35,7 @@
 .jc-sb{
     justify-content: space-between;
 }
+
 @media screen and (max-width: 576px) {
     .wrap {
         width: 100%;
