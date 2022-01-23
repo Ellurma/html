@@ -1,0 +1,59 @@
+.dsp-fl{
+    display: flex;
+}
+.bg-grey{
+    background: #686868;
+}
+.brd-10{
+    border: 10px solid white;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+}
+.header{
+    width: 700px;
+    height: 200px;
+}
+.nav{
+    width: 300px;
+    height: 700px;
+}
+.storeLoc, .tools{
+    width: 300px;
+    height: 200px;
+}
+.bathSel{
+    width: 500px;
+    height: 300px;
+}
+.ad{
+    width: 180px;
+    height: 300px;
+}
+.typOfBath{
+    width: 500px;
+    height: 820px;
+}
+.relProd{
+    width: 180px;
+}
+.footer{
+    width: 1020px;
+    height: 200px;
+}
+@media screen and (min-width: 576px) and (max-width: 768){
+    .left{
+        display: none;
+    }
+    .right-top, .right-down{
+        flex-direction: column;
+
+    }
+    .top, .footer, .right-top, .right-down {
+        min-width: 570px;
+    }
+
+
+
+}
