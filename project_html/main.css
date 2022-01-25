@@ -1,0 +1,157 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --black-color: #0B2330;
+    --grey-color: #375361;
+}
+.wrap{
+    width: 1440px;
+    margin: 0 auto;
+}
+.dsp-fl{
+    display: flex;
+}
+.m-w1440{
+    max-width: 1440px;
+}
+
+.navigator{
+    height: 83px;
+    box-sizing: border-box;
+    padding:15px 32px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav-logo{
+
+}
+.nav_center{
+    column-gap: 56px;
+}
+.nav_right{
+    column-gap: 24px;
+    text-align: center;
+}
+
+}
+.nav__item{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+    text-decoration: none
+}
+.btn_nav{
+    height: 54px;
+    width: 163px;
+    background: var(--black-color);
+    border: 1px solid var(--black-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.header{
+    height: 890px;
+    justify-content: space-between;
+}
+img.img_bg{
+    width: 600px;
+}
+img.hdr_foto{
+    width: 608 px;
+    height: 531px;
+    position: relative;
+    top: -700px;
+    left: -99px;
+}
+.header_txt{
+    padding-left: 147px;
+    margin-top: 154px;
+}
+.header_txt__title {
+    width: 436px;
+    height: 256px;
+}
+.header_txt__title h2{
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    color: var(--black-color);
+    margin-bottom: 32px;
+
+}
+.header_txt__text {
+    width: 436px;
+    height: 96px;
+    margin-bottom: 38px;
+}
+.header_txt__text p{
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--grey-color: #375361);
+}
+.btn_header{
+    padding: 15px 29px;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color)
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.btn_start{
+    background: #F9C600;
+    border: 1px solid #F9C600;
+    margin-right: 16px;
+}
+.btn_talk {
+    border: 1px solid var(--black-color);
+}
+
+.logos_txt p{
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: var(--black-color);
+}
+.logos_txt{
+    height: 96px;
+    width: 547px;
+    margin: 189px auto 59px;
+}
+.logos_all{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 174px;
+    column-gap: 80px;
+}
+.green_bike{
+    height: 494px;
+    width: 1376px;
+    background: #69d2bb;
+    border-radius: 10px;
+    margin-top: 192px;
+}
+.bike{
+    padding-top: 80px;
+}
+.bike_txt{
+    padding-top: 114px;
+    padding-right: 121px;
+}
+.bike_txt h3{
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--black-color);
+
+}
+.bike_txt p{
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--black-color);
+
+}
