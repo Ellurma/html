@@ -144,7 +144,7 @@ img.hdr_foto{
     padding-top: 114px;
     padding-right: 121px;
 }
-.bike_txt h3, .onboarding h3, .contextual_txt h3{
+.bike_txt h3, .onboarding h3, .contextual_txt h3, .intgr_txt h3{
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
@@ -187,6 +187,9 @@ img.hdr_foto{
     width: 550px;}
 .w563{
     width: 563px;}
+.w670{
+    width: 670px;
+}
 .w1064{
     width: 1064px;}
 .target p{
@@ -196,7 +199,7 @@ img.hdr_foto{
 }
 .target_txt{
     box-sizing: border-box;
-    padding: 103px 193px 0px 0px;
+    padding: 103px 193px 0 0;
 
 }
 .w593{
@@ -222,7 +225,7 @@ img.hdr_foto{
     justify-content: space-between;
     margin-bottom: 140px;
 }
-.context_txt p, .features h5{
+.context_txt p, .features h5, .intgr_txt h5{
     font-size: 17px;
     line-height: 28px;
     color: var(--grey-color);
@@ -258,15 +261,24 @@ img.hdr_foto{
     width: 1440px;
     height: 960px;
     box-sizing: border-box;
-    padding: 96px 100px 90px 122px;
+    padding: 80px 100px 90px 122px;
+}
+.ft_df{
+    width: 1196px;
+    height: 490px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
 }
 .features p{
     font-size: 24px;
     line-height: 32px;
     color: var(--black-color;
 }
-
-
-img.vector1{
-    border: 2px solid #000000;
+.integrations{
+    max-width: 1280;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 148px;
+    margin-top: 160px;
 }
