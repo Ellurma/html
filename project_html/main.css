@@ -35,7 +35,6 @@
     text-align: center;
 }
 
-}
 .nav__item{
     font-size: 16px;
     line-height: 24px;
@@ -61,7 +60,7 @@ img.img_bg{
     width: 600px;
 }
 img.hdr_foto{
-    width: 608 px;
+    width: 608px;
     height: 531px;
     position: relative;
     top: -700px;
@@ -82,8 +81,6 @@ img.hdr_foto{
     line-height: 64px;
     letter-spacing: 0.6px;
     color: var(--black-color);
-
-
 }
 .header_txt__text {
     width: 436px;
@@ -99,7 +96,7 @@ img.hdr_foto{
     padding: 15px 29px;
     font-size: 16px;
     line-height: 24px;
-    color: var(--black-color)
+    color: var(--black-color);
     box-sizing: border-box;
     border-radius: 4px;
 }
@@ -162,7 +159,7 @@ img.hdr_foto{
     margin: 0 auto;
 }
 .onboarding_foto{
-    margin: 57px 0px 127px;
+    margin: 57px 0 127px;
 }
 .btn_cntr{
     text-align: center;
@@ -179,6 +176,12 @@ img.hdr_foto{
 }
 .w245{
     width: 245px;}
+.w314{
+    width: 314px;
+}
+.w325{
+    width: 325px;
+}
 .w402{
     width: 402px;}
 .w485{
@@ -225,7 +228,7 @@ img.hdr_foto{
     justify-content: space-between;
     margin-bottom: 140px;
 }
-.context_txt p, .features h5, .intgr_txt h5{
+.context_txt p, .features h5, .intgr_txt h5, .case_study_txt h5{
     font-size: 17px;
     line-height: 28px;
     color: var(--grey-color);
@@ -270,15 +273,53 @@ img.hdr_foto{
     justify-content: space-between;
     margin-top: 110px;
 }
-.features p{
+.features p, .case_study_txt p{
     font-size: 24px;
     line-height: 32px;
-    color: var(--black-color;
+    color: var(--black-color);
 }
 .integrations{
-    max-width: 1280;
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     margin-left: 148px;
     margin-top: 160px;
+}
+.case_study{
+    margin: 240px 32px 35px 32px;
+}
+.case_study_txt{
+   background: #f2ede7;
+    width: 565px;
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 116px;
+}
+.case_study_foto{
+    background: #fbc414;
+}
+.footer{
+    height: 423px;
+    background: #0d2632;
+    box-sizing: border-box;
+    padding-top: 53px;
+}
+.footer h2{
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: #FFFFFF;
+}
+.footer p{
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.footer__items a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
 }
