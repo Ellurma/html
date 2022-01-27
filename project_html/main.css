@@ -298,28 +298,68 @@ img.hdr_foto{
 .case_study_foto{
     background: #fbc414;
 }
-.footer{
+.footer_{
     height: 423px;
     background: #0d2632;
     box-sizing: border-box;
     padding-top: 53px;
 }
-.footer h2{
+.footer_ h2{
     font-size: 42px;
     line-height: 48px;
     text-align: center;
     letter-spacing: 0.42px;
     color: #FFFFFF;
 }
-.footer p{
+.footer_ p{
     font-size: 17px;
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
 }
+.footer__{
+    height: 370px;
+    background: #0d2632;
+    box-sizing: border-box;
+    padding: 78px 332px 0 32px;
+    justify-content: space-between;
+
+}
 .footer__items a{
     font-size: 16px;
     line-height: 24px;
+    color: #94A0A4;
+    text-decoration: none
+}
+a.yel{
     color: #F9C600;
+}
+.hr{
+    height: 1px;
+    background: #375361;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.footer__end{
+    height: 300px;
+    background: #0d2632;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 268px;
+    padding-right: 150px;
+}
+p.ftr{
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+}
+img.ftr_f{
+    height: 28px;
+    width: 28px;
+}
+.ftr_fotos{
+    column-gap: 24px;
 }
