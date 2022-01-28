@@ -6,40 +6,31 @@
     --grey-color: #375361;
 }
 .wrap{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .dsp-fl{
     display: flex;
 }
-.m-w1440{
-    max-width: 1440px;
-}
-
 .navigator{
     height: 83px;
     box-sizing: border-box;
     padding:15px 32px;
     align-items: center;
     justify-content: space-between;
-
-}
-.nav-logo{
-
 }
 .nav_center{
     column-gap: 56px;
 }
 .nav_right{
+    align-items: center;
     column-gap: 24px;
-    text-align: center;
 }
-
 .nav__item{
     font-size: 16px;
     line-height: 24px;
     color: var(--black-color);
-    text-decoration: none
+    text-decoration: none;
 }
 .btn_nav{
     height: 54px;
@@ -51,6 +42,13 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: box-shadow .35s ;
+}
+.btn_nav, .btns, .btn:hover {
+    box-shadow: 9px 10px 5px -4px rgba(0, 0, 0, 0.63);
+    -webkit-box-shadow: 9px 10px 5px -4px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 9px 10px 5px -4px rgba(0, 0, 0, 0.63);
 }
 .header{
     height: 890px;
@@ -69,7 +67,6 @@ img.hdr_foto{
 .header_txt{
     padding-left: 147px;
     margin-top: 154px;
-
 }
 .header_txt__title {
     width: 436px;
@@ -99,6 +96,8 @@ img.hdr_foto{
     color: var(--black-color);
     box-sizing: border-box;
     border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow .35s ;
 }
 .btn_start{
     background: #F9C600;
@@ -108,8 +107,7 @@ img.hdr_foto{
 .btn_talk {
     border: 1px solid var(--black-color);
 }
-
-.logos_txt p, .target h2, .solutions h2{
+.logos_txt h2, .target h2, .solutions h2{
     font-size: 42px;
     line-height: 48px;
     text-align: center;
@@ -141,12 +139,11 @@ img.hdr_foto{
     padding-top: 114px;
     padding-right: 121px;
 }
-.bike_txt h3, .onboarding h3, .contextual_txt h3, .intgr_txt h3{
+h3{
     font-size: 34px;
     line-height: 40px;
     letter-spacing: 0.34px;
     color: var(--black-color);
-
 }
 .bike_txt p{
     font-size: 22px;
@@ -174,27 +171,16 @@ img.hdr_foto{
     position: relative;
     left: -113px;
 }
-.w245{
-    width: 245px;}
-.w314{
-    width: 314px;
-}
 .w325{
-    width: 325px;
-}
-.w402{
-    width: 402px;}
+    width: 325px;}
 .w485{
     width: 485px;}
-.w550 {
-    width: 550px;}
-.w563{
-    width: 563px;}
 .w670{
-    width: 670px;
-}
+    width: 670px;}
 .w1064{
     width: 1064px;}
+.w600{
+    width: 600px;}
 .target p{
     font-size: 17px;
     line-height: 28px;
@@ -203,13 +189,6 @@ img.hdr_foto{
 .target_txt{
     box-sizing: border-box;
     padding: 103px 193px 0 0;
-
-}
-.w593{
-    width: 593px;
-}
-.w500{
-    width: 500px;
 }
 .solutions{
     margin-left: 148px;
@@ -228,7 +207,7 @@ img.hdr_foto{
     justify-content: space-between;
     margin-bottom: 140px;
 }
-.context_txt p, .features h5, .intgr_txt h5, .case_study_txt h5{
+h5{
     font-size: 17px;
     line-height: 28px;
     color: var(--grey-color);
@@ -250,6 +229,8 @@ img.hdr_foto{
     border-radius: 4px;
     box-sizing: border-box;
     padding: 3px 8px;
+    cursor: pointer;
+    transition: box-shadow .35s ;
 }
 .btns_gr{
     color: #61757E;
@@ -299,7 +280,7 @@ img.hdr_foto{
     background: #fbc414;
 }
 .footer_{
-    height: 423px;
+    height: 500px;
     background: #0d2632;
     box-sizing: border-box;
     padding-top: 53px;
@@ -312,11 +293,14 @@ img.hdr_foto{
     color: #FFFFFF;
 }
 .footer_ p{
+    width: 670px;
     font-size: 17px;
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
     margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 36px;
 }
 .footer__{
     height: 370px;
@@ -324,7 +308,8 @@ img.hdr_foto{
     box-sizing: border-box;
     padding: 78px 332px 0 32px;
     justify-content: space-between;
-
+    position:relative;
+    top: -1px;
 }
 .footer__items a{
     font-size: 16px;
@@ -335,12 +320,14 @@ img.hdr_foto{
 a.yel{
     color: #F9C600;
 }
+
 .hr{
+    width: 1376px;
     height: 1px;
     background: #375361;
-    box-sizing: border-box;
-    padding-left: 32px;
-    padding-right: 32px;
+    margin: 0 auto;
+    position:relative;
+    top: -1px;
 }
 .footer__end{
     height: 300px;
@@ -350,6 +337,8 @@ a.yel{
     box-sizing: border-box;
     padding-left: 268px;
     padding-right: 150px;
+    position:relative;
+    top: -1px;
 }
 p.ftr{
     font-size: 14px;
@@ -363,3 +352,4 @@ img.ftr_f{
 .ftr_fotos{
     column-gap: 24px;
 }
+
