@@ -1,29 +1,40 @@
 // 1. Створити масив з 10 чисел (можна використовувати  Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
-let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-let result = arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5] + arr[6] + arr[7] + arr[8] + arr[9]
-console.log(result)
+// let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+// let result = arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5] + arr[6] + arr[7] + arr[8] + arr[9]
+// console.log(result)
 // 2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
 // 3. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр, автори
 // 4. Створити маис об'єктів book з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
-let book1 = {
-    title: "The Lord of the Rings",
-    pages: 546,
-    genre: 'fantasy novel'
-}
-let book2 = {
-    title: "The Hobbit",
-    pages: 476,
-    genre: 'fantasy novel',
-    authors: {
-        author: 'J. R. R. Tolkien',
-        publisher: 'Allen & Unwin'
+// let book1 = {
+//     title: "The Lord of the Rings",
+//     pages: 546,
+//     genre: 'fantasy novel'
+// }
+// let book2 = {
+//     title: "The Hobbit",
+//     pages: 476,
+//     genre: 'fantasy novel',
+//     authors: {
+//         author: 'J. R. R. Tolkien',
+//         publisher: 'Allen & Unwin'
+//     }
+// }
+// console.log(book1);
+// console.log(book2);
+let books= {
+        book1: {
+            title: "The Lord of the Rings",
+            pages: 546,
+            genre: 'fantasy novel'},
+        book2:{
+            title: "The Hobbit",
+            pages: 678,
+            genre: 'fantasy novel',
+            authors: ['J. R. R. Tolkien', 'Allen & Unwin']}
     }
-}
-console.log(book1);
-console.log(book2);
-let books=[['Book1-The Lord of the Rings', ' pages:546', ' genre:fantasy novel'], ['Book2-The Hobbit', ' pages:476', ' genre:fantasy novel', ['author:J. R. R. Tolkien', 'publisher:Allen & Unwin']]]
-console.log(books[0]);
-console.log(books[1])
+console.log(books.book1);
+console.log(books.book2)
+
 // 5. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
 // Значення площі зберігати в змінній s.
 let hght=23;
@@ -36,7 +47,7 @@ let heightC=10;
 let dC=4;
 const PI=3.14;
 let v=PI*dC*heightC;
-console.log('Площа циліндра='+v+' кв m')
+console.log('Обєм циліндра='+v+' кв m')
 // У прямокутного трикутника дві сторони n (зі значенням 3) та m (зі значенням 4).
 // Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь) або оператор зведення в ступінь **).
 let n=3;
