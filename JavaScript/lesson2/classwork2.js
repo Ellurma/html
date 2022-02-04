@@ -35,35 +35,52 @@
 // - Ми маємо змінну x в яку користувач задає  значення,  якщо в змінну записане число, вивести 1,
 //     якщо в змінну записали стрінгу вивести 2, якщо булеве значення - 3, якщо об'єкт або масив - 3.
 // якщо в змінну записали щось інше, спрацьовує else
-// let x=prompt('???')
-// if ()
+// let x= {
+//     title:'milk',
+//     price:34
+// }
+// if (typeof x==='number'){
+//     console.log(1)
+// }   else if(typeof x==='string'){
+//         console.log(2)
+//     }else if(typeof x==='boolean'){
+//     console.log(3)
+// }else if(typeof x==='object' || typeof x==='array') {
+//     console.log(4)
+// } else {
+//     console.log(5)
+// }
 
 // - Задача-гра "чи ми йдемо сьогодні в OKTEN на навчання?".
 //     Змінна, яка характеризує температуру. Якщо температура від +10 до +22 вивести повідомлення що ми йдемо ВЧИТИСЯ .
 //     Якщо інша темпаретура, тоді виводимо повідомлення що сидимо вдома і вчимося ОНЛАЙН
-// let temp=+prompt('enter degree +')
-
+// let temp=+prompt('enter degree ')
+// if (temp<10 || temp>22){
+//     document.write('stay home, studing online')
+// }else {
+//     document.write('welcome to Okten')
+// }
 
 
 // - За допомогою switch case - реалізувати гру - вікторину, де ми вводимо число від 1 до 5. І взалежності від введеного
 //     числа нам дається приз. (Авто, Мото, Телефон, і т.д ) і якщо число не підходить тоді  вивести Повідомлення - що число не вірне ... .
 
-switch (+prompt('enter number from 1 to 5')){
-    case 1:
-        document.write('Congr!!! You win the car')
-        break
-    case 2:
-        document.write('Congr!!! You win the motobike')
-        break
-    case 3:
-        document.write('Congr!!! You win the bike')
-        break
-    case 4:
-        document.write('Congr!!! You win the phone')
-        break
-    case 5:
-        document.write('Congr!!! You win the doll')
-        break
-    default:
-        document.write('sorry, wrong number' )
-}
+// switch (+prompt('enter number from 1 to 5')){
+//     case 1:
+//         document.write('Congr!!! You win the car')
+//         break
+//     case 2:
+//         document.write('Congr!!! You win the motobike')
+//         break
+//     case 3:
+//         document.write('Congr!!! You win the bike')
+//         break
+//     case 4:
+//         document.write('Congr!!! You win the phone')
+//         break
+//     case 5:
+//         document.write('Congr!!! You win the doll')
+//         break
+//     default:
+//         document.write('sorry, wrong number' )
+// }

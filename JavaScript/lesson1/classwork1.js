@@ -21,23 +21,36 @@
 // }
 // console.log(book1);
 // console.log(book2);
-let books= {
-        book1: {
-            title: "The Lord of the Rings",
-            pages: 546,
-            genre: 'fantasy novel'},
-        book2:{
-            title: "The Hobbit",
-            pages: 678,
-            genre: 'fantasy novel',
-            authors: ['J. R. R. Tolkien', 'Allen & Unwin']}
+// let books= {
+//         book1: {
+//             title: "The Lord of the Rings",
+//             pages: 546,
+//             genre: 'fantasy novel'},
+//         book2:{
+//             title: "The Hobbit",
+//             pages: 678,
+//             genre: 'fantasy novel',
+//             authors: ['J. R. R. Tolkien', 'Allen & Unwin']}
+//     }
+// console.log(books.book1);
+// console.log(books.book2)
+let book=[
+    {title: 'The Lord of the Rings',
+        pages: 546,
+        genre: 'fantasy novel'},
+    {title: 'The Hobbit',
+        pages: 678,
+        genre: 'fantasy novel',
+        authors: ['J. R. R. Tolkien', 'Allen & Unwin']
     }
-console.log(books.book1);
-console.log(books.book2)
+]
 
+console.log(book[0]);
+console.log(book[1])
 // 5. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
 // Значення площі зберігати в змінній s.
 let hght=23;
+
 let wdth=10;
 let s=hght*wdth;
 console.log('Площа прямокутника='+s+'cm')
