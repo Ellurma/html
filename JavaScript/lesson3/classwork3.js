@@ -6,8 +6,19 @@ let numbers=[2,17,13,6,22,31,45,66,100,-18]
 //     console.log(numbers[i])
 //     i++
 // }
+// в зворотньому циклі (с заду на перед)
+// let i=numbers.length-1
+// while (i>=0){
+//     console.log(numbers[i])
+//     i--
+// }
 //     2. перебрати його циклом for
 // for (let j = 0; j < numbers.length; j++) {
+//     const number = numbers[j];
+//     console.log(number)
+// }
+// в зворотньому циклі (с заду на перед
+// for (let j = numbers.length-1; j >=0; j--) {
 //     const number = numbers[j];
 //     console.log(number)
 // }
@@ -17,6 +28,14 @@ let numbers=[2,17,13,6,22,31,45,66,100,-18]
 //     console.log(numbers[i])
 //     i+=2
 // }
+// в зворотньому циклі (с заду на перед
+// let i=numbers.length-1
+// while (i>=0){
+//     if (i%2===1){
+//     console.log(numbers[i])
+//     }
+//     i--
+// }
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
 // for (let j = 0; j < numbers.length; j++) {
 //     if (j % 2 === 1) {
@@ -24,17 +43,39 @@ let numbers=[2,17,13,6,22,31,45,66,100,-18]
 //         console.log(number)
 //     }
 // }
+// в зворотньому циклі (с заду на перед
+// for (let j = numbers.length-1; j >= 0; j--) {
+//     if (j % 2 === 1) {
+//         const number = numbers[j];
+//         console.log(number)
+//     }
+// }
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
-let i=0
-while (i<numbers.length) {
-    if (numbers[i] % 2 === 0) {
-        console.log(numbers[i])}
-        i++
-}
+// let i=0
+// while (i<numbers.length) {
+//     if (numbers[i] % 2 === 0) {
+//         console.log(numbers[i])}
+//         i++
+// }
+// в зворотньому циклі (с заду на перед
+// let i=numbers.length-1
+// while (i>=0){
+//     if (numbers[i]%2===0){
+//         console.log(numbers[i])
+//     }
+//     i--
+// }
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
 // for (let j = 0; j < numbers.length; j++) {
 //         const number = numbers[j];
 //         if ( number% 2 === 0) {
+//         console.log(number)
+//     }
+// }
+// в зворотньому циклі (с заду на перед)
+// for (let j = numbers.length-1; j >= 0; j--) {
+//         const number = numbers[j];
+//         if (number % 2 === 0) {
 //         console.log(number)
 //     }
 // }
@@ -46,9 +87,18 @@ while (i<numbers.length) {
 //         console.log(number)
 //     }
 // }
-// 8. вивести масив в зворотньому порядку.
-for (let j = numbers.length - 1; j >= 0; j--) {
+// в зворотньому циклі (с заду на перед
+for (let j = numbers.length-1; j >=0; j--) {
     let number = numbers[j];
-    console.log(number)
+    if ( number%3 === 0) {
+        number='okten'
+        console.log(number)
+    }
 }
+// 8. вивести масив в зворотньому порядку.
+// for (let j = numbers.length - 1; j >= 0; j--) {
+//     let number = numbers[j];
+//     console.log(number)
+// }
+
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
