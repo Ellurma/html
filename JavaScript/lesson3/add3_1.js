@@ -3,7 +3,7 @@
 //     +b. заповнити його 50 непарними числами за допомоги циклу.
 //     +c. Заповнити масив 20ма рандомними числами. (Google: Generate random number JS)
 
-let arr=[]
+// let arr=[]
 // let a=2
 // for (let i = 0; i < 50; i++) {
 //    let arrElement = arr[i];
@@ -18,25 +18,25 @@ let arr=[]
 //     b+=2
 //     console.log(arrElement)
 // }
-for (let i = 0; i < 20; i++) {
-    const arrElement = arr[i];
-    arrayElement=getRandomInt(8,732)
-    console.log(arrayElement)
-}
+// for (let i = 0; i < 20; i++) {
+//     const arrElement = arr[i];
+//     arrayElement=getRandomInt(8,732)
+//     console.log(arrayElement)
+// }
 
 // +d. Заповнити масив 20ма рандомними чисалами в діапазоні від 8 до 732 (Google: Generate random number JS)
 // +2. Вивести за допомогою console.log кожен третій елемен
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min)) + min;
-}
-let array=[]
-for (let i = 0; i < 20; i++) {
-    let arrayElement = array[i];
-    arrayElement=getRandomInt(8,732)
-    console.log(arrayElement)
-}
+// function getRandomInt(min, max) {
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min)) + min;
+// }
+// let array=[]
+// for (let i = 0; i < 20; i++) {
+//     let arrayElement = array[i];
+//     arrayElement=getRandomInt(8,732)
+//     console.log(arrayElement)
+// }
 
 // 3. +Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним.
 // for (let i = 0; i < 20; i++) {
@@ -44,27 +44,39 @@ for (let i = 0; i < 20; i++) {
 //     arrayElement=getRandomInt(8,732)
 //     arrayElement%2===0 && i%3===0 ? console.log(arrayElement) : null
 // }
-// 4. -Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
-
+// 4. +Вивести за допомогою console.log кожен третій елемен тільки якщо цей елемент є парним та записати їх в новий масив
+// let newArr=[]
+// let arr=[783,3843,38956,2894,726,216,2678,9789,9887,987]
+// for (let i = 2; i < arr.length; i+=3) {
+//     if (arr[i]%2===0) {
+//         newArr.push(arr[i])
+//     }
+// }
+// console.log(newArr)
 // 5. -Вивести кожен елемент масиву, сусід справа якого є парним
 // EXAMPLE: [ 1, 2, 3, 5, 7, 9, 56, 8, 67 ] -> Має бути виведено 1, 9, 56
 // let numbers=[ 1, 2, 3, 5, 7, 9, 56, 8, 67 ]
 
 
-// 6. Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
-let price=[100,250,50,168,120,345,188]
-sum=0
-for (let i = 0; i < price.length; i++) {
-    const priceElement = price[i];
-    sum=sum+priceElement
-}
-console.log(sum/price.length)
+// 6. +Є масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. Обрахувати середній чек.
+// let price=[100,250,50,168,120,345,188]
+// sum=0
+// for (let i = 0; i < price.length; i++) {
+//     const priceElement = price[i];
+//     sum=sum+priceElement
+// }
+// console.log(sum/price.length)
 //
 // -7. Створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
-// -8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо елемент є числом - додати його в інший масив.
-//
-//
-//
+// +8. Створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо елемент є числом - додати його в інший масив.
+let arrayAny=['hjdsh', 'hdf', 454,true,-588, 7634.3, 23]
+let arrayEmpty=[]
+for (let arrayAnyElement of arrayAny) {
+    if (typeof arrayAnyElement==="number"){
+        arrayEmpty.push(arrayAnyElement)
+    }
+}
+console.log(arrayEmpty)
 // - Дано 2 масиви з рівною кількістю об'єктів.
 // Масиви:
 //     let usersWithId = [
