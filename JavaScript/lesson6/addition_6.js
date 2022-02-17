@@ -1,14 +1,22 @@
 // - -Напишите функцию cutString(str, n), которая делит строку на подстроки, состоящие из n символов.
 // document.writeln(cutString('наслаждение',3)) // [нас,лаж,ден,ие]
 // Зробила функцію з циклом, не розумію чому не відпрацьовує?????
-// let cutString=(str, n)=>{
-//     let arr=[]
-//     for (let i = 0; i < str.length; i+=n) {
-//         arr.push(str.substring(i,n) )
-//     }return arr
+let cutString=(str, n)=>{
+    let arr=[]
+    for (let i = 0; i < str.length; i+=n) {
+        arr.push(str.substring(i,i+n) )
+    }return arr
+}
+document.write(cutString('наслаждение',3))
+console.log(cutString('наслаждение', 3));
+// const cutString = (str, n) => {
+//     let array = [];
+//     for (let i = 0; i < str.length - 1; i += n) {
+//         array.push(str.slice(i, i+n));
+//     }
+//     return array;
 // }
-// document.write(cutString('наслаждение',3))
-
+// console.log(cutString('наслаждение', 3));
 
 // let cutString=(str, n)=>{
 //     let arr=[]
@@ -143,11 +151,11 @@ console.log(coursesArray);
 // - +Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
 let str = "Сила тяжести приложена к центру масс тела";
 // document.writeln(cutString(str, 5)) // 'Сила тяжести приложена к центру'
-let cutString=(str, n)=>{
-    let arrOfString=str.split(' ');
-    let length=arrOfString.length
-    arrOfString.splice(n,length)
-    let newStr=arrOfString.toString()
-    return newStr.replaceAll(',',' ')
-}
-console.log(cutString(str, 5));
+// let cutString=(str, n)=>{
+//     let arrOfString=str.split(' ');
+//     let length=arrOfString.length
+//     arrOfString.splice(n,length)
+//     let newStr=arrOfString.toString()
+//     return newStr.replaceAll(',',' ')
+// }
+// console.log(cutString(str, 5));
