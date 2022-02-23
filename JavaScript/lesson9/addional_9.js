@@ -231,4 +231,46 @@ let usersList = [
         }
     ];
 
-// Створити під кожен елемент окремий блок. В цьому блоці, під кожну властивість, та властивості внутрішніх об'єктів створити свої окремі блок.
+// Створити під кожен елемент окремий блок. В цьому блоці, під кожну властивість,
+// та властивості внутрішніх об'єктів створити свої окремі блок.
+for (const user of usersList) {
+    let divWrap=document.createElement('div')
+    let id=document.createElement('div')
+    id.innerText=user.id
+    let name=document.createElement('div')
+    name.innerText=user.name
+    let username=document.createElement('div')
+    username.innerText=user.username
+    let email=document.createElement('div')
+    email.innerText=user.email
+    let address=document.createElement('div')
+    let street=document.createElement('div')
+    street.innerText=user.address.street
+    let suite=document.createElement('div')
+    suite.innerText=user.address.suite
+    let city=document.createElement('div')
+    city.innerText=user.address.city
+    let zipcode=document.createElement('div')
+    zipcode.innerText=user.address.zipcode
+    let geo=document.createElement('div')
+    let lat=document.createElement('div')
+    lat.innerText=user.address.geo.lat
+    let lng=document.createElement('div')
+    lng.innerText=user.address.geo.lng
+    geo.append(lat,lng)
+    address.append(street,suite,city,zipcode,geo)
+    let phone=document.createElement('div')
+    phone.innerText=user.phone
+    let website=document.createElement('div')
+    website.innerText=user.website
+    let company=document.createElement('div')
+    let nameCom=document.createElement('div')
+    nameCom.innerText=user.company.name
+    let catchPhrase=document.createElement('div')
+    catchPhrase.innerText=user.company.catchPhrase
+    let bs=document.createElement('div')
+    bs.innerText=user.company.bs
+    company.append(nameCom,catchPhrase,bs)
+    divWrap.append(id,name,username,email,address,phone, website,company)
+    document.body.append(divWrap)
+}
